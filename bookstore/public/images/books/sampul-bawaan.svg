@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="420" viewBox="0 0 300 420" role="img" aria-label="Sampul buku bawaan">
+    <rect width="300" height="420" fill="#e9ecef"/>
+    <rect x="24" y="24" width="252" height="372" fill="#ffffff" stroke="#adb5bd" stroke-width="2"/>
+    <text x="150" y="196" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#495057" text-anchor="middle">Sampul Buku</text>
+    <text x="150" y="228" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#6c757d" text-anchor="middle">Belum Tersedia</text>
+</svg>
