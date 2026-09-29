@@ -50,23 +50,13 @@
                 </a>
             </li>
         </ul>
-
-        <div class="p-3 border-top border-secondary sidebar-footer w-100">
-            <div class="d-flex align-items-center justify-content-between">
-                <div class="d-flex align-items-center gap-2 overflow-hidden me-2">
-                    <i class="bi bi-person-circle fs-4 text-secondary"></i>
-                    <div class="lh-1 text-truncate">
-                        <small class="fw-bold d-block text-white text-truncate">{{ auth()->user()->name }}</small>
-                        <small class="text-muted" style="font-size: 0.75rem;">Administrator</small>
-                    </div>
-                </div>
-                <form method="POST" action="{{ route('logout') }}" class="m-0">
-                    @csrf
-                    <button type="submit" class="btn btn-sm btn-outline-danger" title="Keluar">
-                        <i class="bi bi-box-arrow-right"></i>
-                    </button>
-                </form>
-            </div>
+        <div class="p-3 mt-0 offcanvas-lg offcanvas-start bg-dark text-white admin-sidebar border-end">
+            <form method="POST" action="{{ route('logout') }}">
+                @csrf
+                <button type="submit" class="btn btn-outline-danger w-100 d-flex align-items-center gap-2">
+                    <i class="bi bi-box-arrow-right"></i> Keluar
+                </button>
+            </form>
         </div>
     </div>
 </div>
